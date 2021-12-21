@@ -6,12 +6,9 @@ Jane不熟悉Redis的部署方式，但听说Docker使服务部署到开发和�
 
 Jane的开发环境可以通过名为Docker的机器访问最新版本的Docker引擎。她的本地开发机器安装了Docker客户端，可以通过命令行访问。
 
-What Is Docker?
-Docker describes themselves as "an open platform for developers and sysadmins to build, ship, and run distributed applications".
 
-Docker allows you to run containers. A container is a sandboxed process running an application and its dependencies on the host operating system. The application inside the container considers itself to be the only process running on the machine while the machine can run multiple containers independently.
+# Docker是什么？
+Docker将自己描述为“开发人员和系统管理员构建、发布和运行分布式应用程序的开放平台”。基于Docker，你可以将应用运行在容器中。
 
-## Docker是什么？
-    Docker将自己描述为“开发人员和系统管理员构建、发布和运行分布式应用程序的开放平台”。基于Docker，你可以将应用运行在容器中。
-## 容器（Container）是什么？
-    容器是运行应用程序及其对主机操作系统的依赖关系的沙盒进程。容器内的应用程序认为自己是机器上运行的唯一进程，而机器可以独立运行多个容器。
+# Container是什么？
+容器是运行应用程序及其对主机操作系统的依赖关系的沙盒进程。容器内的应用程序认为自己是机器上运行的唯一进程，而机器可以独立运行多个容器。

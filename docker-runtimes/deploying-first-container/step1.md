@@ -1,8 +1,3 @@
-# Step 1 - Running A Container
-The first task is to identify the name of the Docker Image which is configured to run Redis. With Docker, all containers are started based on a Docker Image. These images contain everything required to launch the process; the host doesn't require any configuration or dependencies.
-
-Jane can find existing images at registry.hub.docker.com/ or by using the command docker search <name>. For example, to find an image for Redis, you would use `docker search redis`{{execute}}.
-
 # 运行容器
 
 第一个任务是识别配置为运行Redis的Docker映像的名称。对于Docker，所有容器都基于Docker映像启动。这些图像包含启动流程所需的一切；主机不需要任何配置或依赖项。
@@ -11,7 +6,7 @@ Jane可以在注册表中找到现有图像。中心码头工人。com/或使用
 
 `docker search redis`{{execute}}
 
-# Task
+# 任务
 通过使用search命令，Jane识别出Redis Docker映像名为Redis，并希望运行最新版本。由于Redis是一个数据库，Jane希望在继续工作时将其作为后台服务运行。
 
 要完成此步骤，请在后台启动一个容器，根据官方图像运行Redis实例。

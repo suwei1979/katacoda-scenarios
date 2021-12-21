@@ -1,0 +1,16 @@
+{
+  "title": "Docker,Container Runtimes,Builders and Registries",
+  "description": "学习如何使用Docker,Podman,Firecracker,以及其它容器运行时",
+  "courses": [
+    {
+      "course_id": "deploying-first-container",
+      "title": "Deploying Your First Docker Container",
+      "description": "Learn how to launch containers using Docker"
+    },
+    {
+      "course_id": "create-nginx-static-web-server",
+      "title": "Deploy Static HTML Website as Container",
+      "description": "Learn how to run a static HTML website using Nginx"
+    }
+  ]
+}

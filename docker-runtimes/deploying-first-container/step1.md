@@ -25,3 +25,7 @@ Docker CLI有一个名为run的命令，该命令将基于Docker映像启动容�
 默认情况下，Docker将运行可用的最新版本。如果需要特定的版本，可以将其指定为标记，例如版本3.2将是 docker run-d redis:3.2。
 
 由于这是Jane第一次使用Redis映像，这个镜像将被从远程仓库下载到当前运行Docker的主机上。
+
+我们可以通过分别下面命令确认redis的镜像已经下载，并且容器也已经启动了
+`docker images`{{execute}}
+`docker ps`{{execute}}

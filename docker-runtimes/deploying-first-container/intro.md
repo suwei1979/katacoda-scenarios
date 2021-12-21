@@ -1,0 +1,17 @@
+在第一个场景中，您将扮演Jane的角色，她是一名开发人员，需要为正在使用的应用程序部署新的键值存储。经过讨论，决定使用流行的KV商店Redis。
+
+Jane不熟悉Redis的部署方式，但听说Docker使服务部署到开发和生产中变得简单。
+
+此场景讨论了她将如何完成任务并将Redis部署为Docker容器。
+
+Jane的开发环境可以通过名为Docker的机器访问最新版本的Docker引擎。她的本地开发机器安装了Docker客户端，可以通过命令行访问。
+
+What Is Docker?
+Docker describes themselves as "an open platform for developers and sysadmins to build, ship, and run distributed applications".
+
+Docker allows you to run containers. A container is a sandboxed process running an application and its dependencies on the host operating system. The application inside the container considers itself to be the only process running on the machine while the machine can run multiple containers independently.
+
+## Docker是什么？
+    Docker将自己描述为“开发人员和系统管理员构建、发布和运行分布式应用程序的开放平台”。基于Docker，你可以将应用运行在容器中。
+## 容器（Container）是什么？
+    容器是运行应用程序及其对主机操作系统的依赖关系的沙盒进程。容器内的应用程序认为自己是机器上运行的唯一进程，而机器可以独立运行多个容器。

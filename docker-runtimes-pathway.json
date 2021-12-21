@@ -4,13 +4,13 @@
   "courses": [
     {
       "course_id": "deploying-first-container",
-      "title": "Deploying Your First Docker Container",
-      "description": "Learn how to launch containers using Docker"
+      "title": "部署你的第一个容器",
+      "description": "学习如何用Docker来启动容器"
     },
     {
       "course_id": "create-nginx-static-web-server",
-      "title": "Deploy Static HTML Website as Container",
-      "description": "Learn how to run a static HTML website using Nginx"
+      "title": "通过容器来部署静态网站",
+      "description": "学习如何使用Nginx来运行静态HTML页面"
     }
   ]
 }

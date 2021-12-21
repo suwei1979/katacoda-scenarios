@@ -6,8 +6,8 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
-        "text": "运行容器"
+        "title": "Step 1 - 运行容器",
+        "text": "step1.md"
       },
       {
         "title": "Step 2",
